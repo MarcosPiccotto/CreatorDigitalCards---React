@@ -1,0 +1,117 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.digital-card {
+    background: #1a1b21;
+    max-width: 300px;
+}
+
+.avatar {
+    filter: grayscale(100%);
+    width: 300px;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.info-content {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.info-name {
+    font-size: 25px;
+    line-height: 30px;
+}
+.workstation {
+    color: #f3bf99;
+}
+
+.info-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-buttons > button {
+    display: flex;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+    align-items: center;
+}
+.button-email {
+    background-color: #d1d5db;
+    border: 1px solid #d1d5db;
+}
+
+.button-email:hover {
+    background-color: #93969b;
+    border: 1px solid #93969b;
+}
+
+.button-linkedin {
+    background-color: #3f7ad3;
+    border: 1px solid #3f7ad3;
+}
+
+.button-linkedin:hover {
+    background-color: #396bb8;
+    border: 1px solid #396bb8;
+}
+
+.about {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 15%;
+    text-align: left;
+    max-width: 216px;
+}
+.about-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.about-text {
+    font-size: 13px;
+    line-height: 150%;
+}
