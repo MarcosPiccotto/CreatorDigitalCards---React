@@ -40,6 +40,12 @@
     color: #888;
 }
 
+.main{
+    display: flex;
+    /* dont work, fix latert */
+    justify-content: space-between;
+}
+
 .digital-card {
     background: #1a1b21;
     max-width: 300px;
