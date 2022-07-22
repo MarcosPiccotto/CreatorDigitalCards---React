@@ -10,11 +10,13 @@ export default function Info(props) {
                 <p className="workstation">{workstation}</p>
                 <p>{webside}</p>
                 <div className="info-buttons">
-                    <button className="button-email" onclick="location.href='MyMail.com'">
-                        <span class="material-symbols-outlined">mail</span> Email 
+                    {/* ver de hacer funcionar el onClick */}
+                    <button className="button-email">
+                        <span className="material-symbols-outlined">mail</span> Email 
                     </button>
-                    <button className="button-linkedin" onclick="location.href='MyLinkedin.com'">
-                    <span class="material-symbols-outlined">group</span> Linkedin
+                     {/* ver de hacer funcionar el onClick */}
+                    <button className="button-linkedin">
+                    <span className="material-symbols-outlined">group</span> Linkedin
                     </button>
                 </div>
             </div>

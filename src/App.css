@@ -103,7 +103,7 @@
     font-weight: 400;
     margin-left: 15%;
     text-align: left;
-    max-width: 216px;
+    max-width: 215px;
 }
 .about-title {
     font-weight: 700;
@@ -114,4 +114,35 @@
 .about-text {
     font-size: 13px;
     line-height: 150%;
+}
+
+.interest {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 15%;
+    text-align: left;
+    max-width: 215px;
+}
+
+.interest-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.interest-text {
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.footer{
+    background: #161619;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footer > a{
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
